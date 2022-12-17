@@ -17,7 +17,7 @@
 
 ## 🗃️ Repositório
 
-Esse repositório, apresenta os trabalhos desenvolvidos dentro da disciplina de Desenvolvimento WEB II, do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas (TADS), no Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP.
+Esse repositório, apresenta os trabalhos desenvolvidos dentro da disciplina de Linguagem de Programação I, do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas (TADS), no Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP.
 
 ## 🏫 IFSP
 
@@ -35,7 +35,7 @@ O Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas (TADS) 
 
 ## 📚 Disciplina
 
-A disciplina Estrutura de Dados aprofunda os conhecimentos acerca do desenvolvimento de algoritmos de ordenação, assim como a modelagem e a implementação de diferentes estruturas de dados. Nela é desenvolvido conhecimentos na linguagem de programação C, Porque a linguagem deixa a cargo do programador todas as operações necessárias para o gerenciamento das estruturas de dados e permite a manipulação de estruturas e ponteiros de maneira explícita
+A disciplina Linguagem de Programação I aprofunda os conhecimentos e conceitos sobre orientação a objetos no contexto de desenvolvimento de software. aplicando tecnicas e conhecimentos comuns no desenvolvimento de programas orientados a objetos. Nela é desenvolvido conhecimentos na linguagem de programação Java, assim como a criação e desenvolvimento de Classes, Objetos, Atributos, Métodos, Composição, Herança, Polimorfismo, Atributos e Métodos Finais e Estáticos, Classes Abstratas e Interfaces
 
 ## 💻 Atividades
 
@@ -60,4 +60,5 @@ Para acessar os repositórios com os códigos fonte das atividades, basta clicar
 
 Os projetos foram desenvolvidos utilizando as seguintes tecnologias:
 
-- C (Linguagem de Programação)
+- Java
+- Programação Orientada a Objetos
