@@ -60,4 +60,5 @@ Para acessar os repositórios com os códigos fonte das atividades, basta clicar
 Os projetos foram desenvolvidos utilizando as seguintes tecnologias:
 
 - Java
+- Banco de Dados
 - Programação Orientada a Objetos
