@@ -35,7 +35,7 @@ O Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas (TADS) 
 
 ## 📚 Disciplina
 
-A disciplina Linguagem de Programação I aprofunda os conhecimentos e conceitos sobre orientação a objetos no contexto de desenvolvimento de software, aplicando tecnicas e conhecimentos comuns no desenvolvimento de programas orientados a objetos. Nela é desenvolvido conhecimentos na linguagem de programação Java, assim como a criação e desenvolvimento de Classes, Objetos, Atributos, Métodos, Composição, Herança, Polimorfismo, Atributos e Métodos Finais e Estáticos, Classes Abstratas e Interfaces
+A disciplina Linguagem de Programação I apresenta conhecimentos e conceitos sobre orientação a objetos no contexto de desenvolvimento de software, aplicando tecnicas e conhecimentos comuns no desenvolvimento de programas orientados a objetos. Nela é desenvolvido conhecimentos na linguagem de programação Java, assim como a criação e desenvolvimento de Classes, Objetos, Atributos, Métodos, Composição, Herança, Polimorfismo, Atributos e Métodos Finais e Estáticos, Classes Abstratas e Interfaces
 
 ## 💻 Atividades
 
