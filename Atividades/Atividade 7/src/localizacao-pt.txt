@@ -1,0 +1,49 @@
+Opcoes:
+
+0 - Sair do Programa
+
+1 - Inserir Produto
+
+2 - Inserir produto em posicao especifica
+
+3 - Consultar produto (pelo nome)
+
+4 - Consultar produto (pela posicao)
+
+5 - Substituir produto
+
+6 - Remover produto (pelo nome)
+
+7 - Remover produto (pela posicao)
+
+Digite sua opcao:
+
+Digite o Nome do Produto:
+
+Produto Inserido com Sucesso
+
+Digite a posicao do Produto:
+
+Digite o Nome do Produto para Consulta:
+
+O Produto Consultado Existe!
+
+O Produto Consultado Nao Existe!
+		 
+Digite a Posicao do Produto para Consulta:
+ 
+Produto e Posicao:
+
+Digite a Posicao do Produto Que Voce Quer Substituir:
+
+Digite o Nome do Produto que Voce Quer Substituir:
+
+Produto Substituido com Sucesso!
+	
+Digite o Nome do Produto que voce quer Remover:
+
+Digite a Posicao do Produto que voce quer Remover
+	 
+Opção invalida
+
+Finalizando Programa

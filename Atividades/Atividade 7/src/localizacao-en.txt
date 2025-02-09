@@ -1,0 +1,49 @@
+Options:
+
+0 - Exit the Program
+
+1 - Insert Product
+
+2 - Insert product in specific position
+
+3 - Consult product (by name)
+
+4 - Consult product (by position)
+
+5 - Replace product
+
+6 - Remove product (by name)
+
+7 - Remove product (by position)
+
+Enter your option:
+
+Type the Name of your Product:
+
+Product Inserted Successfully
+
+Type the Position of your Product:
+
+Enter the Product Name for Inquiry:
+
+The Queryed Product Exists!
+
+The Queryed Product does not Exists!
+
+Type the Position of your Product for Query:
+ 
+Position and Product:
+
+Enter the Position of the Product You Want to Replace:
+
+Enter the Name of the Product You Want to Replace:
+
+Product Replaced Successfully!
+
+Enter the Name of the Product you want to Remove:
+
+Enter the Position of the Product you want to Remove:
+
+Invalid option
+
+Ending Program
