@@ -19,7 +19,7 @@ public class Calculadora extends JFrame {
 		lbvalor2 = new JLabel("Valor 2");
 		tfvalor1 = new JTextField();
 		tfvalor2 = new JTextField();
-		lboperacao = new JLabel("OperaÁ„o");
+		lboperacao = new JLabel("Opera√ß√£o");
 		cboperacao = new JComboBox<>(valOp);
 		btCalcular = new JButton("Calcular");
 		
@@ -96,12 +96,12 @@ public class Calculadora extends JFrame {
 					int resto = Integer.parseInt(tfvalor1.getText()) % Integer.parseInt(tfvalor2.getText());
 					JOptionPane.showMessageDialog(null,"Resultado: " + resto);
 			    	} catch (Exception c) {
-			    		JOptionPane.showMessageDialog(null, "Digite Apenas Numeros Inteiros pra resto da divis„o!");
+			    		JOptionPane.showMessageDialog(null, "Digite Apenas Numeros Inteiros pra resto da divis√£o!");
 			    	}
 			    break;
 			}
 			} catch (Exception a) {
-				JOptionPane.showMessageDialog(null, "1- N„o Deixe os Campos Valor 1 e Valor 2 em Branco!" + "\n2- Digite apenas Numeros nos Campos Valor 1 e Valor 2");
+				JOptionPane.showMessageDialog(null, "1- N√£o Deixe os Campos Valor 1 e Valor 2 em Branco!" + "\n2- Digite apenas Numeros nos Campos Valor 1 e Valor 2");
 			}
 		    }
 		    });

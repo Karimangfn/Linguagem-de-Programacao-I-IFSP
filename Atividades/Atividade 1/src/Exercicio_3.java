@@ -1,15 +1,13 @@
-package Exercicios;
-
 import java.util.Scanner;
 
-public class Exercicio_5 {
+public class Exercicio_3 {
 
 	public static void main(String[] args) {
 		System.out.print("Digite a Distancia da sua Viagem(Km): ");
 		Scanner Scan = new Scanner(System.in);
 		float N = Scan.nextFloat();
 		
-		System.out.print("Digite o Preço do Combustivel: R$");
+		System.out.print("Digite o PreÃ§o do Combustivel: R$");
 		float N1 = Scan.nextFloat();
 		
 		System.out.print("Digite o Consumo de Combustivel(Km/Litro): ");

@@ -11,37 +11,37 @@ public class Exercicio3 {
 		int opcao;
 		
 		do {
-		 System.out.println("\nOp��es:");
+		 System.out.println("\nOpções:");
 		 System.out.println("0 - Sair do Programa");
-		 System.out.println("1 - Calcular Area do Retangulo ");
-		 System.out.println("2 - Calcular Area do Circulo");
-		 System.out.print("Digite sua op��o: ");
+		 System.out.println("1 - Calcular Área do Retângulo");
+		 System.out.println("2 - Calcular Área do Círculo");
+		 System.out.print("Digite sua opção: ");
 		 opcao = Scan.nextInt();
 		 
 		 switch (opcao) {
 		 case 1:
-			 System.out.println("Digite a Base do Retangulo: ");
+			 System.out.println("Digite a Base do Retângulo: ");
 			 r.setBase(Scan.nextInt());
-			 System.out.println("Digite a Altura do Retangulo: ");
+			 System.out.println("Digite a Altura do Retângulo: ");
 			 r.setAltura(Scan.nextInt());
-			 System.out.println("Digite uma Cor para o Retangulo: ");
+			 System.out.println("Digite uma Cor para o Retângulo: ");
 			 r.setCor(Scan.next());
-			 System.out.printf("Area: %.0f " , r.calcularArea());
+			 System.out.printf("Área: %.0f", r.calcularArea());
 			 System.out.println("\nCor: " + r.getCor());
 	     break;
 	     
 		 case 2:
-			 System.out.println("Digite o Raio do Circulo: ");
+			 System.out.println("Digite o Raio do Círculo: ");
 			 c.setRaio(Scan.nextDouble());
-			 System.out.println("Digite uma Cor para o Circulo: ");
+			 System.out.println("Digite uma Cor para o Círculo: ");
 			 c.setCor(Scan.next());
-			 System.out.println("Area: " + c.calcularArea() );
+			 System.out.println("Área: " + c.calcularArea());
 			 System.out.println("Cor: " + c.getCor());
 		 break;
 		 
 		 default:
 	     if (opcao != 0)
-			System.out.println("Op��o inv�lida");
+			System.out.println("Opção inválida");
 	     else
 			System.out.println("Finalizando Programa");
 		 break;

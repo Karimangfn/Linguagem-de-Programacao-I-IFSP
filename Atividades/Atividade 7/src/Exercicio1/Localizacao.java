@@ -14,7 +14,7 @@ public class Localizacao {
 
 	public List<String> MudarIdiomaPT(int quantidadecomeco, int quantidadefim) {
 		try {     
-            FileReader fr = new FileReader("C:\\Users\\Kariman\\Desktop\\Kariman\\Anotações em geral\\Faculdade - 2021 - Um Dia\\3 Semestre 10.03.2022 até xx.xx.xxxx\\3- Quarta - Linguagem de Programação l - Leonardo Bertholdo\\Projetos e Trabalhos\\Exercicios para 10.05.2022\\src\\localizacao-pt.txt");   
+            FileReader fr = new FileReader("C:\\src\\localizacao-pt.txt");
             BufferedReader br = new BufferedReader(fr); 
             String linha;      
             while ((linha = br.readLine()) != null){ 
@@ -35,7 +35,7 @@ public class Localizacao {
             }
            
         } catch (FileNotFoundException el){   
-            System.out.println("Arquivo não Encontrado!");   
+            System.out.println("Arquivo nÃ£o Encontrado!");   
             
         } catch (IOException e){   
             e.printStackTrace();   
@@ -45,7 +45,7 @@ public class Localizacao {
 	
        public List<String> MudarIdiomaEN(int quantidadecomeco, int quantidadefim) {	
 		try {     
-            FileReader fr = new FileReader("C:\\Users\\Kariman\\Desktop\\Kariman\\Anotações em geral\\Faculdade - 2021 - Um Dia\\3 Semestre 10.03.2022 até xx.xx.xxxx\\3- Quarta - Linguagem de Programação l - Leonardo Bertholdo\\Projetos e Trabalhos\\Exercicios para 10.05.2022\\src\\localizacao-en.txt");   
+            FileReader fr = new FileReader("C:\\src\\localizacao-en.txt");
             BufferedReader br = new BufferedReader(fr); 
             String linha;      
             while ((linha = br.readLine()) != null){
@@ -67,7 +67,7 @@ public class Localizacao {
             }
            
         } catch (FileNotFoundException el){   
-            System.out.println("Arquivo não Encontrado!");   
+            System.out.println("Arquivo nÃ£o Encontrado!");   
             
         } catch (IOException e){   
             e.printStackTrace();   

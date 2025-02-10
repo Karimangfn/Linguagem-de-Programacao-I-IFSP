@@ -1,5 +1,3 @@
-package Exercicios;
-
 import java.util.Scanner;
 
 public class Exercicio_1 {
@@ -14,7 +12,7 @@ public class Exercicio_1 {
 
 		float media = (N + N2) / 2;
 
-		System.out.print("\nA M�dia do Aluno �: " + media);
+		System.out.print("\nA Média do Aluno ?: " + media);
 	}
 
 }

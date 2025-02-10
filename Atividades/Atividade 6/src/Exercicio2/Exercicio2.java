@@ -13,12 +13,12 @@ public class Exercicio2 {
 		String nome;
 		
 		do {
-			 System.out.println("\nOpções:");
+			 System.out.println("\nOpÃ§Ãµes:");
 			 System.out.println("0 - Sair do Programa");
 			 System.out.println("1 - Inserir Pessoa");
 			 System.out.println("2 - Remover Pessoa");
 			 System.out.println("3 - Imprimir Fila");
-			 System.out.print("Digite sua opção: ");
+			 System.out.print("Digite sua opÃ§Ã£o: ");
 			 opcao = Scan.nextInt();
 			 
 			 switch (opcao) {
@@ -41,7 +41,7 @@ public class Exercicio2 {
 			
 			 default:
 			 if (opcao != 0)
-				System.out.println("Opção inválida");
+				System.out.println("OpÃ§Ã£o invÃ¡lida");
 			 else
 				System.out.println("Finalizando Programa");
 		     break;

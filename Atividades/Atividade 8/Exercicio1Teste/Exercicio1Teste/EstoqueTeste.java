@@ -16,7 +16,7 @@ public class EstoqueTeste {
 	public void deveRetornarProdutosComEstoqueInsuficiente() {
 		Estoque estoque = new Estoque("Estoque1");
 		estoque.armazena(new Produto("Banana", 5, 10, 30));  
-		estoque.armazena(new Produto("MaÁa", 20, 10, 30)); 
+		estoque.armazena(new Produto("Ma√ßa", 20, 10, 30)); 
 		estoque.armazena(new Produto("Laranja", 30, 10, 20)); 
 			
 		Controle controle = new Controle();
@@ -24,7 +24,7 @@ public class EstoqueTeste {
 		
 		assertEquals(3, controle.getProdutosComEstoqueInsuficiente().size(), 0.001);
 		assertEquals("Banana", controle.getProdutosComEstoqueInsuficiente().get(0).getNome());
-		assertEquals("MaÁa", controle.getProdutosComEstoqueInsuficiente().get(1).getNome());
+		assertEquals("Ma√ßa", controle.getProdutosComEstoqueInsuficiente().get(1).getNome());
 		assertEquals("Laranja", controle.getProdutosComEstoqueInsuficiente().get(2).getNome());
 	}
 	
@@ -47,16 +47,16 @@ public class EstoqueTeste {
 	@Test
 	public void deveRetornarProdutosComEstoqueZerado() {
 		Estoque estoque = new Estoque("Estoque3");
-		estoque.armazena(new Produto("MaÁa", 0, 10, 30));
-		estoque.armazena(new Produto("Mam„o", 20, 10, 30));
+		estoque.armazena(new Produto("Ma√ßa", 0, 10, 30));
+		estoque.armazena(new Produto("Mam√£o", 20, 10, 30));
 		estoque.armazena(new Produto("Pera", 50, 20, 40));
 			
 		Controle controle = new Controle();
 		controle.avaliaProduto(estoque);
 		
 		assertEquals(3, controle.getProdutosComEstoqueZerado().size(), 0.001);
-		assertEquals("MaÁa", controle.getProdutosComEstoqueZerado().get(0).getNome());
-		assertEquals("Mam„o", controle.getProdutosComEstoqueZerado().get(1).getNome());
+		assertEquals("Ma√ßa", controle.getProdutosComEstoqueZerado().get(0).getNome());
+		assertEquals("Mam√£o", controle.getProdutosComEstoqueZerado().get(1).getNome());
 		assertEquals("Pera", controle.getProdutosComEstoqueZerado().get(2).getNome());
 	}
 	

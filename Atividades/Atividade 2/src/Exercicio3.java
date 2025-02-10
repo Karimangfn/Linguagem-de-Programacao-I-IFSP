@@ -23,7 +23,7 @@ public class Exercicio3 {
 		Cal.set(Ano, Mes, Dia);
 		
 		do {
-		System.out.println("\nEscolha uma Opção");
+		System.out.println("\nEscolha uma OpÃ§Ã£o");
 		System.out.println("0 - Sair");
 		System.out.println("1 - Adicionar Dias");
 		System.out.println("2 - Adicionar Meses");

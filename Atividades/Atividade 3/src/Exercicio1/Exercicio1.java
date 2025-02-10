@@ -23,9 +23,9 @@ public class Exercicio1 {
 		
 		System.out.println("Codigo: " + p.getcodigo());
 		
-		System.out.println("Descrição: " + p.getdescricao());
+		System.out.println("DescriÃ§Ã£o: " + p.getdescricao());
 		
-		System.out.println("Preço: " + p.getpreco());
+		System.out.println("PreÃ§o: " + p.getpreco());
 		
 		System.out.println("Ativo: " + p.getativo());
 		

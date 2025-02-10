@@ -2,7 +2,7 @@ package Exercicio3;
 
 public class Cliente {
 	private int codigo = 1;
-	private String endereço;
+	private String endereco;
 	private String telefone;
 	
 	protected int getCodigo() {
@@ -11,11 +11,11 @@ public class Cliente {
 	protected void setCodigo(int codigo) {
 		this.codigo = codigo;
 	}
-	protected String getEndereço() {
-		return endereço;
+	protected String getEndereco() {
+		return endereco;
 	}
-	protected void setEndereço(String endereço) {
-		this.endereço = endereço;
+	protected void setEndereco(String endereco) {
+		this.endereco = endereco;
 	}
 	protected String getTelefone() {
 		return telefone;

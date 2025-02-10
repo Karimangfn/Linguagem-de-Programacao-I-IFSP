@@ -20,12 +20,12 @@ public class Exercicio1 {
 		}
 		
 		System.out.println("Codigo: " + p.getcodigo());
-		System.out.println("DescriÁ„o: " + p.getdescricao());
-		System.out.println("PreÁo: " + p.getpreco());
+		System.out.println("Descri√ß√£o: " + p.getdescricao());
+		System.out.println("Pre√ßo: " + p.getpreco());
 		if (p.getativo() == true)
 		System.out.println("Ativo: Sim");
 		else
-		System.out.println("Ativo: N„o");
+		System.out.println("Ativo: N√£o");
 
 	}
 	
@@ -35,7 +35,7 @@ public class Exercicio1 {
 	    	p.setcodigo(Scan.nextInt());
 	        Scan.nextLine();
 	    	} catch (InputMismatchException N) {
-	    		System.out.println("A OperaÁ„o retornou o seguinte Erro: ");
+	    		System.out.println("A Opera√ß√£o retornou o seguinte Erro: ");
 	    		System.out.println("InputMismatchException");
 	    		System.out.println("Informe Somente Numeros Inteiros");
 	    		Scan.nextLine();
@@ -44,17 +44,17 @@ public class Exercicio1 {
 		}
 	    
 	    private static void lerDescricao() {
-	    	System.out.println("Digite a DescriÁ„o: ");
+	    	System.out.println("Digite a Descri√ß√£o: ");
 	    		p.setdescricao(Scan.nextLine());
 	    }
 	    
 	    private static void lerPreco() {
-	    	System.out.println("Digite o Preco: ");
+	    	System.out.println("Digite o Pre√ßo: ");
 	    	try {
 	    		p.setpreco(Scan.nextDouble());
 	  	        Scan.nextLine();
 	    	} catch (InputMismatchException N) {
-	    		System.out.println("A OperaÁ„o retornou o seguinte Erro: ");
+	    		System.out.println("A Opera√ß√£o retornou o seguinte Erro: ");
 	    		System.out.println("InputMismatchException");
 	    		System.out.println("Informe Somente Numeros");
 	    		Scan.nextLine();
@@ -63,16 +63,16 @@ public class Exercicio1 {
 	    }
 	    
 	    private static void lerAtivo() {
-	    	System.out.println("O Produto esta Ativo?: ");
+	    	System.out.println("O Produto est√° Ativo?: ");
 	    		ativo = Scan.nextLine();
 	    		if(ativo.equals("sim")) {
 	    			p.setativo(true);
 	    		}
-	    		else if (ativo.equals("n„o")) {
+	    		else if (ativo.equals("n√£o")) {
 	    			p.setativo(false);
 	    		}
 	    		else {
-	    			System.out.println("Informe Somente as Palavras \"sim\" ou \"n„o\"");
+	    			System.out.println("Informe Somente as Palavras \"sim\" ou \"n√£o\"");
 		    		lerAtivo();
 	            } 
 	    }

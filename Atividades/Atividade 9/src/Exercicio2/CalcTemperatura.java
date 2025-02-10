@@ -17,7 +17,7 @@ public class CalcTemperatura extends JFrame {
 	
 	public CalcTemperatura() {
 		lbTemperatura = new JLabel("Temperatura");
-		lboperacoes = new JLabel("Operações");
+		lboperacoes = new JLabel("OperaÃ§Ãµes");
 		tfvalorTemperatura = new JTextField();
 		bgTemp = new ButtonGroup();
 		rbTemp = new JRadioButton[6];
@@ -68,7 +68,7 @@ public class CalcTemperatura extends JFrame {
 				Double Total = (Temperatura * 1.8) + 32;
 				JOptionPane.showMessageDialog(null,"Temperatura: " + Total);
 				} catch (Exception a) {
-					JOptionPane.showMessageDialog(null, "1 - Não deixe o Campo de Temperatura Vazio!" + "\n2 - Digite apenas Numeros!");
+					JOptionPane.showMessageDialog(null, "1 - NÃ£o deixe o Campo de Temperatura Vazio!" + "\n2 - Digite apenas Numeros!");
 				}
 			}
 		});
@@ -82,7 +82,7 @@ public class CalcTemperatura extends JFrame {
 				Double Total = (Temperatura - 32) / 1.8;
 				JOptionPane.showMessageDialog(null,"Temperatura: " + Total);
 				} catch (Exception a) {
-					JOptionPane.showMessageDialog(null, "1 - Não deixe o Campo de Temperatura Vazio!" + "\n2 - Digite apenas Numeros!");
+					JOptionPane.showMessageDialog(null, "1 - NÃ£o deixe o Campo de Temperatura Vazio!" + "\n2 - Digite apenas Numeros!");
 				}
 			}
 		});
@@ -96,7 +96,7 @@ public class CalcTemperatura extends JFrame {
 				Double Total = Temperatura + 273.15;
 				JOptionPane.showMessageDialog(null,"Temperatura: " + Total);
 				} catch (Exception a) {
-					JOptionPane.showMessageDialog(null, "1 - Não deixe o Campo de Temperatura Vazio!" + "\n2 - Digite apenas Numeros!");
+					JOptionPane.showMessageDialog(null, "1 - NÃ£o deixe o Campo de Temperatura Vazio!" + "\n2 - Digite apenas Numeros!");
 				}
 			}
 		});
@@ -110,7 +110,7 @@ public class CalcTemperatura extends JFrame {
 				Double Total = Temperatura - 273.15;
 				JOptionPane.showMessageDialog(null,"Temperatura: " + Total);
 				} catch (Exception a) {
-					JOptionPane.showMessageDialog(null, "1 - Não deixe o Campo de Temperatura Vazio!" + "\n2 - Digite apenas Numeros!");
+					JOptionPane.showMessageDialog(null, "1 - NÃ£o deixe o Campo de Temperatura Vazio!" + "\n2 - Digite apenas Numeros!");
 				}
 			}
 		});
@@ -124,7 +124,7 @@ public class CalcTemperatura extends JFrame {
 				Double Total = (Temperatura + 459.67) / 1.8;
 				JOptionPane.showMessageDialog(null,"Temperatura: " + Total);
 				} catch (Exception a) {
-					JOptionPane.showMessageDialog(null, "1 - Não deixe o Campo de Temperatura Vazio!" + "\n2 - Digite apenas Numeros!");
+					JOptionPane.showMessageDialog(null, "1 - NÃ£o deixe o Campo de Temperatura Vazio!" + "\n2 - Digite apenas Numeros!");
 				}
 			}
 		});
@@ -138,7 +138,7 @@ public class CalcTemperatura extends JFrame {
 				Double Total = (Temperatura * 1.8) - 459.67;
 				JOptionPane.showMessageDialog(null,"Temperatura: " + Total);
 				} catch (Exception a) {
-					JOptionPane.showMessageDialog(null, "1 - Não deixe o Campo de Temperatura Vazio!" + "\n2 - Digite apenas Numeros!");
+					JOptionPane.showMessageDialog(null, "1 - NÃ£o deixe o Campo de Temperatura Vazio!" + "\n2 - Digite apenas Numeros!");
 				}
 			}
 		});

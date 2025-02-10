@@ -257,7 +257,7 @@ public class Compra extends JFrame {
 				break;
 				}
 			} catch (Exception a) {
-				JOptionPane.showMessageDialog(null, "1- Não Deixe o Valor do Produto em Branco!" + "\n2- Digite apenas Numeros!");
+				JOptionPane.showMessageDialog(null, "1- NÃ£o Deixe o Valor do Produto em Branco!" + "\n2- Digite apenas Numeros!");
 			}
 			}	
 		});	

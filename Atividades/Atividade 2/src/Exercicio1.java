@@ -7,7 +7,7 @@ public class Exercicio1 {
 		
 		int opcao;
 		do {
-			System.out.println("\nEscolha a Opção");
+			System.out.println("\nEscolha a OpÃ§Ã£o");
 			System.out.println("0 - Sair");
 			System.out.println("1 - Arredondar Numero");
 			System.out.println("2 - Calcular Raiz Quadrada");
