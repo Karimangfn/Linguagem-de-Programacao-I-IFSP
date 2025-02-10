@@ -53,14 +53,11 @@ Para acessar os repositórios com os códigos fonte das atividades, basta clicar
 - [Projeto - CRUD com MVC](https://github.com/Karimangfn/Linguagem-de-Programacao-1/tree/main/Projeto%20-%20CRUD%20com%20MVC)
 </p>
 
-# Como Executar os Códigos Java
+## ▶️ Como Executar os Códigos Java
 
-## 📌 Pré-requisitos
 Antes de executar o código, certifique-se de que você tem o seguinte instalado:
 
 - [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html) (versão 8 ou superior)
-
-## ▶️ Executando um Código Java Simples
 
 1. Abra um terminal e navegue até a pasta onde está o arquivo:
    ```sh
